@@ -1,0 +1,99 @@
+ /*BREAK POINT*/
+/*pc*/
+@media (min-width: 1025px) {
+  
+
+}
+
+
+
+/*mobile and tablet*/
+@media (max-width: 1024px){
+body{
+        min-height: 100vh;
+        color: black;
+        line-height: 1.4;
+        font-size: 12px;
+        display: flex;
+}
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 14px;
+}
+
+p{
+    font-size: 12px;
+}
+.ta-padding{
+  padding: 0 24px !important;  
+}
+.ta-padding1{
+    padding: 0 0 !important;  
+  }
+/*name*/
+.t-name{
+    font-size: 26px !important;
+}
+
+.icon-contact{
+    width: 18px;
+    height: 18px;
+}
+
+} 
+
+
+/*mobile*/
+@media (max-width: 740px){
+
+body{
+        min-height: 100vh;
+        color: black;
+        line-height: 1.4;
+        font-size: 7px;
+        display: flex;
+}
+h2{
+    font-size: 11px;
+}
+h3{
+    font-size: 9px;
+}
+
+p{
+    font-size: 7px;
+}
+.m-padding{
+  padding: 0 12px !important;  
+}
+.m-padding0{
+    padding: 0 0 !important;
+}
+.m-margin{
+    margin: 2px 0 !important; 
+}
+.m-margin2{
+    margin: 5px 0 !important; 
+}
+
+
+/*name*/
+.n-name{
+    font-size: 14px !important;
+}
+
+.contact-icon{
+    display: none;
+}
+.icon-contact{
+    width: 12px;
+    height: 12px;
+}
+.list-img{
+    display: none;
+}
+} 
+    
+

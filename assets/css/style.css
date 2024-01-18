@@ -1,0 +1,188 @@
+ /*reset css*/
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Lato';
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    color: black;
+    line-height: 1.8;
+    font-size: 15px;
+    display: flex;
+}
+
+
+div{
+    display: block;
+}
+
+img{
+    border-style: none;
+    vertical-align: middle;
+}
+input{
+    overflow: visible;
+}
+h1{
+    font-weight: 800;
+}
+h2{
+    font-weight: 600;
+    font-size: 24px;
+}
+h3{
+    font-weight: 400;
+    font-size: 20px
+}
+p{
+    display: block;
+    margin: 5px 0;
+}
+
+
+/*common*/
+
+.clear {
+    clear: both;
+}
+.opacity75{
+ opacity: 0.75;
+}
+
+.opacity60{
+    opacity : 0.6;
+}
+
+.align-center{
+    text-align: center !important;
+}
+.align-justify{
+    text-align: justify !important;
+}
+.align-left{
+    text-align: left !important;
+}
+.align-right{
+    text-align: right !important;
+}
+
+.size18{
+    font-size: 18px !important;
+}
+.size42{
+    font-size: 42px !important;
+}
+
+.light-gray{
+    color: rgb(82, 82, 82);
+}
+
+.padding8-inverse{
+    padding: 8px 0;
+}
+.padding16{
+    padding: 0 16px !important;
+}
+.padding16-inverse{
+    padding: 16px 0; 
+}
+.padding24{
+    padding: 0 24px !important;
+}
+.padding36{
+    padding: 0 36px !important;
+}
+.padding48{
+    padding: 0 48px !important;
+}
+.margin5{
+    margin: 5px 0px !important;
+}
+
+.margin10{
+    margin: 10px 0px !important;
+}
+
+.margin15{
+    margin: 15px 0px !important;
+}
+
+.line{
+    width: 100%; 
+    height: 1px; 
+    background-color: rgb(150, 147, 147); 
+     
+}
+.line-vertical{
+    min-height: 100vh; 
+    width: 1px; 
+    background-color: rgb(150, 147, 147); 
+     
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.grid-item{
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 25%;
+    padding: 8px;
+}
+.grid-item2{
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 75%;
+    padding: 8px;
+}
+
+/*left side*/
+.item-left{
+    width: 30%;
+}
+
+/*avatar*/
+
+.avatar-img{
+    width: 50%;
+    height: auto;
+}
+/*contact*/
+.icon-contact{
+    width: 32px;
+    height: 32px;
+    margin: 3px 0;
+}
+
+/*personal-information*/
+
+.list-img{
+    display: flex;
+    justify-content: space-around;
+}
+.item-right{
+    width: 70%;
+    background-color: rgb(244, 245, 247);
+}
+
+/*language*/
+.grid-language{
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 50%;
+    padding: 8px;
+}
+.grid-language2{
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 50%;
+    padding: 8px;
+}
