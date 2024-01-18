@@ -97,3 +97,11 @@ p{
 } 
     
 
+
+/*print*/
+@media print{
+@page{
+    size: A4;
+    margin: 0;
+    }
+}
